@@ -76,20 +76,43 @@ a{
 }
 
 .header{
-    background: url(../img/backdrop.jpg) center;
+    background: url(../img/backdrop_clean.jpg) center;
     background-size: cover;
     height: 90%;
     margin: 0;
+    position: relative;
 }
 
 .header h1, .header p{
     margin: 0;
-    height: 0;
-    opacity: 0;
 }
 
+.header h1{
+    background: url(../img/logo.svg) no-repeat center;
+    height:127px;
+    width:446px;
+    margin-left: -223px;
+    color: transparent;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.header p{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    bottom: 42%;
+    left: 50%;
+    width: 380px;
+    margin-left: -190px;
+    color: white;
+    text-shadow: 1px 1px rgba(0,0,0,.75);
+}
 .content{
-    width: 56.8627%;
+    width: 580px;
     margin: 0 auto;
 }
 .info p:first-child{
@@ -101,7 +124,7 @@ a{
 }
 
 .company{
-    padding: 1.4rem 0;
+    padding: 1.9rem 0;
     border-top: 1px solid #dcd4d8;
     position: relative;
 }
@@ -121,7 +144,7 @@ a{
     font-size: 10px;
     text-transform: uppercase;
     line-height: 10px;
-    margin: .5rem 0 0;
+    margin: .65rem 0 0;
 
 }
 

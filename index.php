@@ -23,7 +23,7 @@
         <![endif]-->
         <div class="header">
             <h1>Moderna företaget</h1>
-            <p>Allt du behöver för att komma igång med ditt företagande samlat på ett ställe..</p>
+            <p>Allt du behöver för att komma igång med ditt företagande samlat på ett ställe.</p>
         </div>
         <div class="content">
             <div class="info">
