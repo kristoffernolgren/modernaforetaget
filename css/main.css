@@ -63,93 +63,89 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-    background: -moz-linear-gradient(top, #bbe8e7 0%, #ffffff 234px) no-repeat; /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbe8e7), color-stop(234px, no-repeat#ffffff)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #bbe8e7 0%,#ffffff 234px) no-repeat; /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #bbe8e7 0%,#ffffff 234px) no-repeat; /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #bbe8e7 0%,#ffffff 234px) no-repeat; /* IE10+ */
-    background: linear-gradient(to bottom, #bbe8e7 0%,#ffffff 234px) no-repeat; /* W3C */
-    padding: 0 130px;
-}
-h1, h2, h3, h4{
+/* font-family: 'Open Sans', sans-serif;  font-weight: 400;*/
+/* url(../img/logo.svg) */
+html, body{
     font-family: 'Open Sans', sans-serif;
-}
-
-.mainHeader {
-    background: url(../img/logo.svg) no-repeat;
-    text-indent: -9999px;
-    width: 190px;
-    height: 190px;
-    margin: 50px auto 30px;
-}
-
-.info{
     font-size: 18px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    width: 620px;
-    margin: 20px auto 50px;
+    line-height: 26px;
+    height: 100%
+}
+a{
+    color: #52263a;
+}
 
-}
-.companies{
-    margin: 0 0 50px;
-}
-.companies section{
-    width: 50%;
-    float: left;
-    border-bottom: 1px solid #CCCCBD;
-    padding: 25px 30px;
-    font-size: 14px;
-}
-.companies section:nth-child(odd){
-    border-right: 1px solid #CCCCBD;
-}
-.companies section:first-child, .companies section:first-child + section {
-    border-top: 1px solid #CCCCBD;
-}
-.companies section .pre{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-    text-transform: uppercase;
+.header{
+    background: url(../img/backdrop.jpg) center;
+    background-size: cover;
+    height: 90%;
     margin: 0;
 }
 
-.companies section h1{
-    margin: 4px 0 15px;
-    display: inline-block;
+.header h1, .header p{
+    margin: 0;
+    height: 0;
+    opacity: 0;
 }
-.companies section .action{
-    color: white;
-    background: black
-;
-    float: right;
-    display: inline-block;
-    padding: 7px 16px;
-    border-radius: 5px;
-    margin-top: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+
+.content{
+    width: 56.8627%;
+    margin: 0 auto;
+}
+.info p:first-child{
+    margin-top: 2.5rem;
+}
+
+.info p:last-child{
+    margin-bottom: 2.5rem;
+}
+
+.company{
+    padding: 1.4rem 0;
+    border-top: 1px solid #dcd4d8;
+    position: relative;
+}
+
+.company:last-child{
+    border-bottom: 1px solid #dcd4d8;;
+}
+
+.company .logo{
+    float: left;
+}
+
+
+.company .slogan{
+    float: left;
+    clear: left;
     font-size: 10px;
-}
-.companies section .printscreen{
-    width: 100%;
-    border: 1px solid #CCCCBD;
-    height: 230px;
-    margin-bottom: 1em;
-}
-.companies section .description{
-    display: inline;
-}
-
-.companies section .readmore{
-    display: inline;
+    text-transform: uppercase;
+    line-height: 10px;
+    margin: .5rem 0 0;
 
 }
 
-
-
-
+.company .action, .company .primary:hover{
+    margin-left: .5rem;
+    float: right;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #52263a;
+    text-decoration: none;
+    width: 130px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.company .primary, .company .action:hover{
+    background: #52263a;
+    color: white;
+    font-weight: 400;
+    transition: all .1s;
+}
 
 /* ==========================================================================
    Media Queries
