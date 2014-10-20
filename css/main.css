@@ -114,11 +114,12 @@ em{
     position: absolute;
     top: 25%;
     left: 50%;
-    width: 380px;
+    max-width: 420px;
     margin-left: -190px;
     color: white;
     text-shadow: 1px 1px rgba(0,0,0,.75);
     margin-top: 140px;
+    padding: 40px;
 }
 .content{
     max-width: 620px;
