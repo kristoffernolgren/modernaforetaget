@@ -65,14 +65,22 @@ textarea {
    ========================================================================== */
 /* font-family: 'Open Sans', sans-serif;  font-weight: 400;*/
 /* url(../img/logo.svg) */
+html{
+    height: 100%;
+}
 html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 26px;
     height: 100%
 }
+
 a{
     color: #52263a;
+}
+em{
+    font-style: normal;
+    font-weight: 600;
 }
 
 .header{
@@ -104,15 +112,17 @@ a{
     font-style: italic;
     text-align: center;
     position: absolute;
-    bottom: 42%;
+    top: 25%;
     left: 50%;
     width: 380px;
     margin-left: -190px;
     color: white;
     text-shadow: 1px 1px rgba(0,0,0,.75);
+    margin-top: 140px;
 }
 .content{
-    width: 580px;
+    max-width: 620px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 .info p:first-child{
@@ -134,13 +144,11 @@ a{
 }
 
 .company .logo{
-    float: left;
+    height: 30px;
 }
 
 
 .company .slogan{
-    float: left;
-    clear: left;
     font-size: 10px;
     text-transform: uppercase;
     line-height: 10px;
@@ -148,12 +156,11 @@ a{
 
 }
 
-.company .action, .company .primary:hover{
+.company .action{
     margin-left: .5rem;
     float: right;
     border: 1px solid;
     border-radius: 4px;
-    color: #52263a;
     text-decoration: none;
     width: 130px;
     height: 44px;
@@ -163,18 +170,67 @@ a{
     text-align: center;
     font-weight: 600;
 }
+.company .action, .company .primary:hover{
+    color: #52263a;
+    background: white;
+}
 .company .primary, .company .action:hover{
+    border: 0;
     background: #52263a;
     color: white;
     font-weight: 400;
     transition: all .1s;
 }
 
+.footer{
+    margin-top: 3rem;
+    border-bottom: 10px solid #52263a;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 500px) {
+    .header{
+        height: initial;
+    }
+    .header h1{
+        width: 50%;
+        height: initial;
+        background-size: contain;
+        position: initial;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+    .header p{
+        margin-top: 0;
+        position: static;
+        margin: 0 auto;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .info p:first-child,.info p:last-child{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .company{
+        padding: 1rem 0;
+    }
+    .company .logo{
+        height: 20px;
+    }
+    .company .action {
+        line-height: 30px;
+        height: 30px;
+        clear: right;
+        margin-bottom: 10px;
+    }
+    .company .action:last-child{
+        margin-bottom: 0
+    }
+}
+
 
 }
 

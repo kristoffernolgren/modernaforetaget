@@ -23,36 +23,35 @@
         <![endif]-->
         <div class="header">
             <h1>Moderna företaget</h1>
-            <p>Allt du behöver för att komma igång med ditt företagande samlat på ett ställe.</p>
+            <p>Vi har samlat de bästa verktygen för dig som driver eller ska starta företag.</p>
         </div>
         <div class="content">
             <div class="info">
                 <p>
-                    Med lättanvända och moderna webbbaserade tjänster kan du snabbt och enkelt spara både tid och pengar och öka chanserna att lyckas med ditt företag. Läs mer om tjänsterna nedan och gå till respektive sajt för att komma igång.
+                    Vi har samlat <em>moderna</em>, <em>webbbaserade</em> tjänster som hjälper dig att lyckas med ditt företag. Alla är <em>anpassade för Svenska marknaden</em> och alla är <em>lätta att använda</em>. Läs mer om tjänsterna nedan och gå till respektive sajt för att komma igång.
                 </p>
             </div>
             <div class="companies">
                 <section class="company clearfix">
-                    <a class="action primary" href="https://www.zenconomy.se/priser/">Gå med</a>
-                    <a class="action" href="https://www.zenconomy.se/priser/">Läs mer</a>
-                    <img class="logo" src="/img/assets/zenconomy.svg" />
-                    <p class="slogan">Lättare bokföring och fakturering</p>
-
+                        <a class="action primary" href="https://www.zenconomy.se/priser/">Gå med</a>
+                        <a class="action" href="https://www.zenconomy.se/">Läs mer</a>
+                        <img class="logo" src="/img/assets/zenconomy.svg" />
+                        <p class="slogan">Lättare bokföring och fakturering</p>
                 </section>
                 <section class="company clearfix">
-                    <a class="action primary" href="https://www.zenconomy.se/priser/">Gå med</a>
-                    <a class="action" href="https://www.zenconomy.se/priser/">Läs mer</a>
-                    <img class="logo" src="/img/assets/zenconomy.svg" />
-                    <p class="slogan">Lättare bokföring och fakturering</p>
+                    <a class="action primary" href="https://minutemailer.com/setup">Gå med</a>
+                    <a class="action" href="https://minutemailer.com/">Läs mer</a>
+                    <img class="logo" src="/img/assets/minutemailer.svg" />
+                    <p class="slogan">Skicka nyhetsbrev som blir lästa</p>
 
                 </section>
             </div>
             <div class="info">
-                <p>Modernt företagande är grundat av en grupp av Svenska digitala tjänster och syftet är att du som företagare enkelt och lättöverskådligt ska kunna hitta de tjänster som kan hjälpa dig i din verksamhet.</p>
-                <p>Vill du vara med och forma Modernt företagande? <a href="mailto:kristoffer@zenconomy.se">Hör av dig.</a></p>
+                <p>Modernt Företagande är grundat av en grupp människor som brinner för att förbättra svenskt företagande genom bygga bättre tjänster.</p>
+                <p>Vill du vara med och forma Modernt företagande eller har du några frågor? <a href="mailto:kristoffer@zenconomy.se">Hör av dig.</a></p>
             </div>
         </div>
-
+        <footer class="footer"></footer>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
